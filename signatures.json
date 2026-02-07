@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "lastUpdate": "2025-12-08",
+  "suspiciousProcesses": [
+    "Cheat Engine.exe",
+    "cheatengine-x86_64.exe",
+    "cheatengine-i386.exe",
+    "Extreme Injector.exe",
+    "Xenos Injector.exe",
+    "Xenos64.exe",
+    "Process Hacker.exe",
+    "ProcessHacker.exe",
+    "x64dbg.exe",
+    "x32dbg.exe",
+    "OllyDbg.exe",
+    "IDA.exe",
+    "IDA64.exe",
+    "dnSpy.exe",
+    "dnSpy-x86.exe",
+    "RedEngine.exe",
+    "EulenCheats.exe",
+    "Eulen.exe",
+    "Nexus.exe",
+    "Lumia.exe",
+    "TZProject.exe",
+    "TZXProject.exe",
+    "Susano.exe",
+    "injector.exe",
+    "DLLInjector.exe"
+  ],
+  "suspiciousDllNames": [
+    "RedEngine.dll",
+    "redengine",
+    "Eulen.dll",
+    "eulen",
+    "EulenCheats.dll",
+    "Nexus.dll",
+    "nexus",
+    "Lumia.dll",
+    "lumia",
+    "TZProject.dll",
+    "tzproject",
+    "TZXProject.dll",
+    "tzxproject",
+    "Susano.dll",
+    "susano",
+    "cheat.dll",
+    "hack.dll",
+    "aimbot.dll",
+    "esp.dll",
+    "wallhack.dll",
+    "speedhack.dll",
+    "lua_executor.dll",
+    "inject.dll",
+    "hook.dll"
+  ],
+  "suspiciousDllHashes": [
+    "d41d8cd98f00b204e9800998ecf8427e",
+    "098f6bcd4621d373cade4e832627b4f6"
+  ],
+  "suspiciousFileNames": [
+    "RedEngine",
+    "Eulen",
+    "EulenCheats",
+    "Nexus",
+    "Lumia",
+    "TZProject",
+    "TZXProject",
+    "Susano",
+    "cheat",
+    "hack",
+    "aimbot",
+    "esp",
+    "wallhack",
+    "speedhack",
+    "injector",
+    "lua_executor",
+    "fivem_cheat",
+    "fivem_hack",
+    "fivem_mod",
+    "settings.cock",
+    "creds.dat",
+    "imgui.ini"
+  ],
+  "criticalCheatFiles": [
+    {
+      "fileName": "settings.cock",
+      "cheatName": "RedEngine",
+      "threatLevel": "Critical",
+      "confidence": 100
+    },
+    {
+      "fileName": "creds.dat",
+      "cheatName": "Hammafia",
+      "threatLevel": "Critical",
+      "confidence": 100
+    }
+  ],
+  "suspiciousOnlyFiles": [
+    {
+      "fileName": "imgui.ini",
+      "description": "Fichier de configuration ImGui - utilisé par de nombreux cheats",
+      "threatLevel": "Medium"
+    }
+  ],
+  "hammafiaIndicators": [
+    "ntoskrnl.exe",
+    "creds.dat"
+  ],
+  "criticalPaths": [
+    {
+      "path": "C:\\ham",
+      "cheatName": "Hammafia",
+      "confidence": 100
+    },
+    {
+      "path": "C:\\RedEngine",
+      "cheatName": "RedEngine",
+      "confidence": 100
+    }
+  ],
+  "suspiciousPaths": [
+    "C:\\Cheats",
+    "C:\\Hacks",
+    "C:\\FiveM Cheats",
+    "C:\\RedEngine",
+    "C:\\Eulen",
+    "C:\\Nexus",
+    "AppData\\Roaming\\RedEngine",
+    "AppData\\Roaming\\Eulen",
+    "AppData\\Roaming\\EulenCheats",
+    "AppData\\Roaming\\Nexus",
+    "AppData\\Roaming\\Lumia",
+    "AppData\\Roaming\\TZProject",
+    "AppData\\Roaming\\TZXProject",
+    "AppData\\Roaming\\Susano",
+    "AppData\\Local\\RedEngine",
+    "AppData\\Local\\Eulen",
+    "AppData\\Local\\FiveM Cheats"
+  ],
+  "suspiciousRegistryKeys": [
+    "SOFTWARE\\RedEngine",
+    "SOFTWARE\\Eulen",
+    "SOFTWARE\\EulenCheats",
+    "SOFTWARE\\Nexus",
+    "SOFTWARE\\Lumia",
+    "SOFTWARE\\TZProject",
+    "SOFTWARE\\TZXProject",
+    "SOFTWARE\\Susano",
+    "SOFTWARE\\FiveMCheats"
+  ],
+  "suspiciousFileExtensions": [
+    ".asi",
+    ".lua"
+  ],
+  "legitimateFiveMModules": [
+    "FiveM.exe",
+    "FiveM_b2699_GTAProcess.exe",
+    "FiveM_ChromeBrowser.exe",
+    "FiveM_DumpServer.exe",
+    "FiveM_GameProcess.exe",
+    "FiveM_SteamChild.exe",
+    "GTA5.exe",
+    "kernel32.dll",
+    "ntdll.dll",
+    "user32.dll",
+    "gdi32.dll",
+    "advapi32.dll",
+    "shell32.dll",
+    "ole32.dll",
+    "oleaut32.dll",
+    "msvcrt.dll",
+    "ws2_32.dll",
+    "winmm.dll",
+    "d3d11.dll",
+    "dxgi.dll",
+    "d3d9.dll",
+    "opengl32.dll"
+  ],
+  "memoryPatterns": [
+    {
+      "name": "Lua Executor Pattern",
+      "pattern": "4C 75 61 5F 65 78 65 63",
+      "description": "Signature de Lua executor"
+    },
+    {
+      "name": "Aimbot Pattern",
+      "pattern": "41 69 6D 62 6F 74",
+      "description": "Signature d'aimbot"
+    },
+    {
+      "name": "ESP Pattern",
+      "pattern": "45 53 50 5F 64 72 61 77",
+      "description": "Signature d'ESP"
+    }
+  ]
+}
